@@ -3,6 +3,6 @@ export interface IItem {
     description: string;
     price: number;
     imageUrl: string;
-}
+}  
 
 
