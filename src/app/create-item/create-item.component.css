@@ -1,0 +1,48 @@
+h1 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+form {
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(213, 94, 50);
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+
+form div input, label {
+    margin: 0 auto;
+    color: var(--main-blue);
+    text-align: center;
+}
+
+form div label {
+    font-weight: bold;
+}
+
+form div input {
+    padding: 1%;
+    width: 80%;
+    text-align: center;
+    font-size: 18px;
+    border: none;
+}
+
+form div {
+    padding: 1%;
+    margin-bottom: 2%;
+}
+
+form textarea {
+    color: var(--main-blue);
+    width: 50%;
+    padding: 2%;
+    border: 1px solid var(--main-blue);
+    resize: none;
+    height: 15vh;
+    overflow: hidden;
+    border-radius: 15px;
+    text-align: center;
+}

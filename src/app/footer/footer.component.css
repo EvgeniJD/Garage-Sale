@@ -1,0 +1,16 @@
+footer {
+    background: rgb(47, 60, 60);
+    ;
+    margin-top: 1em;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+}
+
+footer p {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 1.5em;
+    color: rgb(85, 160, 174);
+}

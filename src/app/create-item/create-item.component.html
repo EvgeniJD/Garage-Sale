@@ -1,0 +1,19 @@
+<h1>Create New Offer</h1>
+<form #f="ngForm" (ngSubmit)="submitHandler(f.value)">
+    <div>
+        <input #itemName="ngModel" type="text" name="name" placeholder="Name..." ngModel>
+    </div>
+    <div>
+        <input #itemPrice="ngModel" type="text" name="price" placeholder="Price..." ngModel>
+    </div>
+    <div>
+        <input #itemImageUrl="ngModel" type="text" name="imageUrl" placeholder="Image url..." ngModel>
+    </div>
+    <div>
+        <textarea #itemDescription="ngModel" name="description" placeholder="Give us some description about this offer..." ngModel></textarea>
+    </div>
+    <p class="message"></p>
+    <div>
+        <button mat-raised-button>Create</button>
+    </div>
+</form>
